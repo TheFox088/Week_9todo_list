@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    background-image: url(todo_list_pict.jpg) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100vh;
+   background-color: darkblue;
+    
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.list_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+#btn:hover{
+    background: green;
+    color: red;
+}
+
+BUTTON:hover{
+    background: blue;
+    color: green;
+}
+
+/*responsive opp til desktop*/
+@media(min-height: 1025px){
+
+}
+
+/*responsive opp til tablet*/
+@media(min-height: 770px){
+
+}
+
+/*responsive opp til mobil*/
+@media(min-height: 340px){
+
+}
